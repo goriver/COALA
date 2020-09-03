@@ -16,19 +16,22 @@
 ## 2. 데이터 분석과정 및 방법
 
 - 데이터 수집 출처
-- <img src ="https://user-images.githubusercontent.com/50822293/92127752-95fc2680-ee3c-11ea-8eb3-17f44f524d33.png", width="60%"></img>
+- <img src ="https://user-images.githubusercontent.com/50822293/92127752-95fc2680-ee3c-11ea-8eb3-17f44f524d33.png" width="60%"></img>
 - 데이터 전처리 및 분석
-- <img src ="https://user-images.githubusercontent.com/50822293/92127931-cb087900-ee3c-11ea-83b0-e1d6000833d5.png", width="60%"></img>
+- <img src ="https://user-images.githubusercontent.com/50822293/92127931-cb087900-ee3c-11ea-83b0-e1d6000833d5.png" width="60%"></img>
 
   
   1. __상위값으로 전처리__  
     - <img src ="https://user-images.githubusercontent.com/50822293/92128399-5124bf80-ee3d-11ea-981e-1b4f79df7a7a.png", width="60%"></img>
+    
     - 지도의 null데이터 처리예시이다. 상위 개념, 예를 들어 서울 노원구 상계동 > 서울 노원구와 같이 null 데이터를 전처리하는 과정을 거쳤다.
   2. __수치형 데이터로 변환__
-    - <img src ="https://user-images.githubusercontent.com/50822293/92128677-9648f180-ee3d-11ea-9f3e-a411499981a6.png", width="60%"></img>
+    - <img src ="https://user-images.githubusercontent.com/50822293/92128677-9648f180-ee3d-11ea-9f3e-a411499981a6.png" width="60%"></img>
+    
     - 지질정보의 경우 모델에 이용하기가 어렵다. 이에 누적분포에 따른 양적 변수로 치환함(수치화함)
   3. __box plot을 이용한 이상값 확인__
-    - <img src ="https://user-images.githubusercontent.com/50822293/92128766-aeb90c00-ee3d-11ea-9b3d-31a1c915ef2d.png", width="60%"></img>
+    - <img src ="https://user-images.githubusercontent.com/50822293/92128766-aeb90c00-ee3d-11ea-9b3d-31a1c915ef2d.png" width="60%"></img>
+    
     - 모델에서 잘 학습할 수 있도록 이상값을 확인하고 삭제하는 과정(다는 아니고, 일부)을 거쳤다.
     - 이를 위해 각 feature별 boxplot을 그렸고, 이를 통해 feature선택(변수 선택)의 과정까지 거쳤다.
 
