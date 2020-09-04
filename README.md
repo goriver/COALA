@@ -22,7 +22,7 @@
 
   
   ### 1. __상위값으로 전처리__  
-    - <img src ="https://user-images.githubusercontent.com/50822293/92128399-5124bf80-ee3d-11ea-981e-1b4f79df7a7a.png", width="60%"></img>
+    - <img src ="https://user-images.githubusercontent.com/50822293/92128399-5124bf80-ee3d-11ea-981e-1b4f79df7a7a.png" width="60%"></img>
     
     - 지도의 null데이터 처리예시이다. 상위 개념, 예를 들어 서울 노원구 상계동 > 서울 노원구와 같이 null 데이터를 전처리하는 과정을 거쳤다.
   ### 2. __수치형 데이터로 변환__
